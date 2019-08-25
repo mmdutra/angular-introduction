@@ -2,7 +2,7 @@ let notaAlunos:number[] = [10, 8, 5, 8.5, 1];
 
 // indices
 for(let i in notaAlunos){
-    console.log(i)
+    console.log(i);
 }
 
 // valores -of
