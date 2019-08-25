@@ -10,17 +10,20 @@ import {
   MatRadioModule,
   MatCardModule,
   MatCheckboxModule,
-  MatInputModule
+  MatInputModule,
+  MatListModule
 } from '@angular/material';
 import { NgIfComponent } from './ng-if/ng-if.component';
 import { SubNgIfComponent } from './ng-if/sub-ng-if/sub-ng-if.component';
+import { NgForComponent } from './ng-for/ng-for.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NgStyleComponent,
     NgIfComponent,
-    SubNgIfComponent
+    SubNgIfComponent,
+    NgForComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +33,8 @@ import { SubNgIfComponent } from './ng-if/sub-ng-if/sub-ng-if.component';
     MatRadioModule,
     MatCardModule,
     MatCheckboxModule,
-    MatInputModule
+    MatInputModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
