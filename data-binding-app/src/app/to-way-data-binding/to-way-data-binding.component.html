@@ -1,0 +1,52 @@
+<section>
+    <mat-card style="margin: 20px;">  
+        <mat-card-content>
+            <form action="">
+                <mat-form-field style="width: 100%">
+                    <input type="text" matInput placeholder="Enter your name" 
+                    [(ngModel)] = "name1" name="input1">
+                </mat-form-field>
+                <mat-form-field style="width: 100%">
+                    <input type="password" matInput placeholder="Enter your password" 
+                    [(ngModel)] = "name2" name="input2">
+                </mat-form-field>
+            </form>
+        </mat-card-content>
+        <mat-card-actions>
+            <p> {{name1}} </p>
+            <p> {{name2}} </p>
+        </mat-card-actions>
+    </mat-card>
+</section>
+
+<section>
+    <mat-card style="margin: 20px;">  
+        <mat-card-title>
+            Client
+        </mat-card-title>
+        <mat-card-content>
+            <form action="">
+                <mat-form-field style="width: 100%">
+                    <input type="text" matInput placeholder="First name" 
+                    [(ngModel)] = "client.firstname" name="txtfirstname">
+                </mat-form-field>
+                <mat-form-field style="width: 100%">
+                    <input type="text" matInput placeholder="Last name" 
+                    [(ngModel)] = "client.lastname" name="txtlastname">
+                </mat-form-field>
+                <mat-form-field style="width: 100%">
+                    <input type="text" matInput placeholder="Address" 
+                    [(ngModel)] = "client.address" name="txtaddress">
+                </mat-form-field>
+                <mat-form-field style="width: 100%">
+                    <input type="text" matInput placeholder="Age" 
+                    [(ngModel)] = "client.age" name="txtage">
+                </mat-form-field>
+            </form>
+        </mat-card-content>
+        <mat-card-actions>
+            <p>Name: {{client.firstname + ' ' + client.lastname}}</p>
+        </mat-card-actions>
+    </mat-card>
+    </section>
+    

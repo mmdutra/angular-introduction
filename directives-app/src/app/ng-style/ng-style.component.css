@@ -1,0 +1,40 @@
+mat-radio-group {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+mat-radio-button {
+    padding-top: 20px;
+}
+
+mat-card {
+    margin: 40px;
+    
+}
+
+.myclass1 {
+    padding: 6px;
+    font-size: 18px;
+    color: red;
+}
+
+.myclass2 {
+    padding: 5px;
+    font-size: 10px;
+    color: green;
+    background: gray;
+}
+
+.myclass3 {
+    padding: 5px;
+    font-size: 13px;
+    color: red;
+    background: green;
+}
+
+.myclass4 {
+    padding: 2px;
+    font-size: 20px;
+    color: white;
+    background: blue;
+}
