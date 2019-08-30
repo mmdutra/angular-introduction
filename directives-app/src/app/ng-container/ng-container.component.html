@@ -1,1 +1,9 @@
-<p>ng-container works!</p>
+<mat-card>
+    <mat-card-content>
+        <ul>
+            <li *ngFor='let user of users' >
+                <span *ngIf="user.role == 'admin'">{{ user.login }}</span>
+            </li>
+        </ul>
+    </mat-card-content>
+</mat-card>
